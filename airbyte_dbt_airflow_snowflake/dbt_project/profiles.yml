@@ -3,7 +3,7 @@ dbt_project:
     dev:
 
       type: snowflake
-      account: "{{ env_var('DBT_SNOWFLAKE_ACCOUNT_ID', '') }}"
+      account: "{{ env_var('NVJRCSG.LQ57629', '') }}"
 
       # User/password auth
       user: VARUN
